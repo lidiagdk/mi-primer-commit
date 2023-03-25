@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primer formulario</title>
+</head>
+
+<body>
+    <header>
+        <h1> primer formulario</h1>
+
+
+    </header>
+    <main>
+        <article>
+            <form action=" https://formspree.io/f/mvonbpnq" method="POST">
+                <fieldset>
+                    <legend>Datos personales
+
+                    </legend>
+                
+
+
+                <label>nombre:
+                    <input type="text" name="nombre" id="nombre" required>
+                </label>
+
+                <br><br>
+
+                <label>apellido:
+                    <input type="tex" name="apellido" id="apellido" required>
+                </label>
+                <br><br>
+                <label>Edad:
+                    <input type="number" name="edad" id="edad" min="0" max="99">
+                </label>
+                <br><br>
+                <label>Email:
+                    <input type="email" name="email" id="email">
+                </label>
+                <br><br>
+                <label>contraseña:
+                    <input type="password" name="password" id="password">
+                </label>
+                <br><br>
+                <label>"Documento:
+                    <label for="Documento1">DNI</label>
+                    <input type="radio" name="Documento" value="DNI" checked="true">
+
+                    <label for="Documento2">"CI"</label>
+                    <input type="radio" name="Documento" value="CI">
+
+                    <label for="Documento3">Pasaporte</label>
+                    <input type="radio" name="Documento" value="Pasaporte">
+                </label>
+            </fieldset>
+             <br><br>
+                <label>Seleccione su lenguaje de programacion favorito:
+                    <select name="lenguaje">
+                        <option value="javaScript">javaScript</option>
+                        <option value="PHP">PHP 7</option>
+                        <option value="python" selected>python 3</option>
+                    </select>
+                </label>
+                <br><br>
+                <label>Intereses:
+                    <label for="interes1">Deportes</label>
+                    <input type="checkbox" name="interes1" value="Deportes">
+                    <label for="interes2">musica</label>
+                    <input type="checkbox" name="interes2" value="musica">
+                    <label for="interes3">viajes</label>
+                    <input type="checkbox" name="interes3" value="viajes">
+                </label>
+                <br><br>
+                <textarea name="mensaje" cols="80" rows="10" placeholder="escriba su consulta"></textarea>
+                <br>
+                <input type="submit" value="enviar mi formulario">
+                <br>
+                <br>
+                <input type="reset" value="resetear">
+
+
+        </article>
+
+
+
+
+    </main>
+    <foother>
+
+
+
+
+
+    </foother>
+
+
+
+
+
+</body>
+
+</html>
